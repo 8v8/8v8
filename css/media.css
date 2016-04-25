@@ -1,0 +1,60 @@
+/*
+@media (max-width: 1199){ 
+
+}
+*/
+@media (max-width: 991px){
+    .container {
+        width: 100%;
+    }
+}
+@media (max-width: 767px){
+    body {
+        background: none;
+    }
+    .container {
+        background: #fff;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    } 
+    .content {
+        padding: 10px;
+    }
+    .container:before,
+    .hrtools  {
+        display: none;
+    }
+    
+    [class*="-res"] {
+	-webkit-flex-flow: column nowrap;
+	-ms-flex-flow: column nowrap;
+	flex-flow: column nowrap;    
+    }
+    [class*="-res"] > [class*="lyt"],
+    [class*="-res"] > * {       
+       -webkit-box-flex: 1;       
+       -webkit-flex: 1 0 auto;       
+       -ms-flex: 1 0 auto;       
+       flex: 1 0 auto;
+    }
+    .toos-title {
+        -webkit-box-ordinal-group: 0;
+        -webkit-order: -1;
+        -ms-flex-order: -1;
+        order: -1;
+        font-size: 14px;
+    }
+    [class*="-title"]{
+        text-align: center;
+        background: #9467BD;
+        color: #fff;
+        padding: 5px 0;
+    }
+
+}
+@media print {
+    .noprint {
+        display: none;
+    }
+}

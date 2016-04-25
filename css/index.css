@@ -1,0 +1,181 @@
+body {
+    background-image: url(../img/bg.jpg);
+}
+.container {
+    background: url(../img/border.jpg);
+    margin: 80px auto;
+    padding: 80px;
+    max-width: 980px;
+    width: 980px;
+    border-radius: 20px;
+    position: relative;
+}
+.container:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 10px;
+    width: 100%;
+    height: 130px;
+    background: url(../img/clip.png) no-repeat center center;
+    background-size: 40%;
+}
+.content {
+    background-color: #f2f2f2;
+    padding: 60px 40px 40px 40px;    
+}
+.kpic img {
+    max-width: 100px;
+}
+.kpic {  
+    margin-left: 0;
+    min-width: 70px;
+}
+
+.ability h3 {
+    text-align: center;
+}
+
+.ability .work h5 {
+   margin: 0;
+}
+.ability .work em {
+   font-weight: 100;
+}
+.ability .work h4 {
+   background: #eee;
+   padding: 5px 0;
+   background-clip: border-box;
+}
+
+.baseinfo {
+    min-width: 140px;
+}
+.baseinfo p:before {
+    padding-right: 10px;
+}
+.hrtools i {
+    position: relative;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+}
+.hrtools i:hover {
+    color: #6F309B;
+}
+.hrtools i span {
+    display: none;
+    position: absolute;
+    left: -4px;
+    top: -20px;
+    width: 36px;
+    border-radius: 3px;
+    background-color: #6F309B;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px;
+    text-align: center;
+}
+.hrtools i span:after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 14px;
+    width: 1px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 4px solid #6F309B;
+}
+
+.download ul {
+    display: none;
+    position: absolute;
+    left: -28px;
+    top: 10px;
+    padding: 0;
+    width: 85px;    
+    border-radius: 3px;
+}
+.download:hover ul,
+.contacts:hover span,
+.print:hover span {
+    display: block;
+}
+.download ul li {
+    font-size: 12px;
+    padding: 5px;
+    border: 1px solid #6F309B;
+}
+.download ul .word {
+    border-bottom-width: 0 ;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.download ul .pdf {
+    border-top-width: 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.download ul li:hover {
+    background-color: #6F309B;   
+}
+.download ul li:hover a {
+    color: #fff;
+}
+.download ul li a {
+    color: #6F309B;
+}
+
+
+.toolstip {
+    width: 130px;
+    height: auto;
+    background: #fff;
+    position: absolute;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+}
+.tools-level span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.scale path {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+.normal path {
+     -webkit-transform: scale(1);
+    transform: scale(1);
+     -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.tools-chart {
+    width: 150px;
+    height: 150px;
+}
+
+.skill {
+    margin-left: 0;
+}
+
+.tag {
+    display: inline-block;
+    padding: 4px 16px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+    background: #09c;
+    color: #fff;
+}
+
+footer {
+    margin-top: 20px;
+}
